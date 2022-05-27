@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
-  <link rel="stylesheet" type="text/css" href="static/css/my-login.css">
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
 
 <link rel="icon" type="image/x-icon" class="rounded" href="static/images/favicon.ico"/>
 
@@ -33,7 +33,7 @@
     <script src="static/mdl/material.js"></script>
     <link rel="stylesheet" href="static/mdl/material.min.css">
     <link rel="stylesheet" href="static/mdl/material.css">
-    <link rel="stylesheet" href="static/style.css">
+
     <style>
     #view-source {
       position: fixed;
@@ -69,7 +69,6 @@
             <p>Manageur Jean <br>ID:220202292</p>
           </span>
         </a>
-        <div class="demo-ribbon"></div>
         <nav class="mdl-navigation">
             <a class="mdl-navigation__link" href="#">
                 <i class="material-icons">home</i>Tableau de Bord
@@ -102,38 +101,82 @@
     </div>
 
     <div class="demo-ribbon"></div>
-    <main  role="main" class="mdl-layout__content content__container">
-        <div class="demo-container mdl-color--grey-100">
-          <div class="demo-content mdl-color--white mdl-shadow--2dp content mdl-color-text--grey-800 mdl-cell mdl-cell--12-col">
+    <main  role="main" class="demo-main mdl-layout__content content__container">
+        <div class="demo-container mdl-grid rw-card-grid">
+        <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
             <div class="mdl-card__content">
                 <h4 class="mdl-typography--text-center">Retirer de l'argent</h4>
-                <div class="mdl-grid mdl-typography--text-center">
-                  
-                  <div class="mdl-cell mdl-cell--4-col">
-                    <a class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast" href="transfert.html"><i class="material-icons">money</i></a>
+                <div class="mdl-grid rw-card-grid mdl-typography--text-center">
+                  <div class="mdl-cell mdl-cell--4-col mdl-cell--3-tablet mdl-cell--2-phone">
+                    <a class="mdl-js-button mdl-button--fab mdl-js-ripple-effect" href="#">
+                      <img src="static/images/visa.png" class="service-icon">
+                    </a>
+                    <p>Carte de Credit</p>
+                  </div>
+
+                  <div class="mdl-cell mdl-cell--4-col mdl-cell--3-tablet mdl-cell--2-phone">
+                    <a class="mdl-js-button mdl-button--fab mdl-js-ripple-effect" href="#">
+                      <img src="static/images/airtel.jpg" class="service-icon">
+                    </a>
                     <p>Airtel Money</p>
                   </div>
 
-                  <div class="mdl-cell mdl-cell--4-col">
-                    <a class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast" href="transfert.html"><i class="material-icons">money</i></a>
+                  <div class="mdl-cell mdl-cell--4-col mdl-cell--3-tablet mdl-cell--2-phone">
+                    <a class="mdl-js-button mdl-button--fab mdl-js-ripple-effect" href="#">
+                      <img src="static/images/orange.jpg" class="service-icon">
+                    </a>
                     <p>Orange Money</p>
                   </div>
 
-                  <div class="mdl-cell mdl-cell--4-col">
-                    <a class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast" href="transfert.html"><i class="material-icons">money</i></a>
+                  <div class="mdl-cell mdl-cell--4-col mdl-cell--3-tablet mdl-cell--2-phone">
+                    <a class="mdl-js-button mdl-button--fab mdl-js-ripple-effect" href="#">
+                      <img src="static/images/m-pesa.jpg" class="service-icon">
+                    </a>
                     <p>M-PESA</p>
                   </div>
 
-                  <div class="mdl-cell mdl-cell--4-col">
-                    <a class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast" href="transfert.html"><i class="material-icons">money</i></a>
+                  <div class="mdl-cell mdl-cell--4-col mdl-cell--3-tablet mdl-cell--2-phone">
+                    <a class="mdl-js-button mdl-button--fab mdl-js-ripple-effect" href="#">
+                      <img src="static/images/pm.png" class="service-icon">
+                    </a>
                     <p>Perfect Money</p>
                   </div>
 
-                  <div class="mdl-cell mdl-cell--4-col">
-                    <a class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast" href="transfert.html"><i class="material-icons">money</i></a>
+                  <div class="mdl-cell mdl-cell--4-col mdl-cell--3-tablet mdl-cell--2-phone">
+                    <a class="mdl-js-button mdl-button--fab mdl-js-ripple-effect" href="#">
+                      <img src="static/images/africel.jpg" class="service-icon">
+                    </a>
                     <p>AfriMoney</p>
                   </div>
 
+                  <div class="mdl-cell mdl-cell--4-col mdl-cell--3-tablet mdl-cell--2-phone">
+                    <a class="mdl-js-button mdl-button--fab mdl-js-ripple-effect" href="#">
+                      <img src="static/images/btc.jpg" class="service-icon">
+                    </a>
+                    <p>Bitcoin</p>
+                  </div>
+
+                  <div class="mdl-cell mdl-cell--4-col mdl-cell--3-tablet mdl-cell--2-phone">
+                    <a class="mdl-js-button mdl-button--fab mdl-js-ripple-effect" href="#">
+                      <img src="static/images/bnb.png" class="service-icon">
+                    </a>
+                    <p>BNB</p>
+                  </div>
+
+                  <div class="mdl-cell mdl-cell--4-col mdl-cell--3-tablet mdl-cell--2-phone">
+                    <a class="mdl-js-button mdl-button--fab mdl-js-ripple-effect" href="#">
+                      <img src="static/images/sc.png" class="service-icon">
+                    </a>
+                    <p>Smart Chain</p>
+                  </div>
+
+                  <div class="mdl-cell mdl-cell--4-col mdl-cell--3-tablet mdl-cell--2-phone">
+                    <a class="mdl-js-button mdl-button--fab mdl-js-ripple-effect" href="#">
+                      <img src="static/images/usdt.png" class="service-icon">
+                    </a>
+                    <p>USDT</p>
+                  </div>
                   
                 </div>
             </div>

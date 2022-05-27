@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
-  <link rel="stylesheet" type="text/css" href="static/css/my-login.css">
+<link rel="stylesheet" type="text/css" href="static/css/style.css">
 
 <link rel="icon" type="image/x-icon" class="rounded" href="static/images/favicon.ico"/>
 
@@ -33,7 +33,7 @@
     <script src="static/mdl/material.js"></script>
     <link rel="stylesheet" href="static/mdl/material.min.css">
     <link rel="stylesheet" href="static/mdl/material.css">
-    <link rel="stylesheet" href="static/style.css">
+
     <style>
     #view-source {
       position: fixed;
@@ -69,7 +69,6 @@
             <p>Manageur Jean <br>ID:220202292</p>
           </span>
         </a>
-        <div class="demo-ribbon"></div>
         <nav class="mdl-navigation">
             <a class="mdl-navigation__link" href="#">
                 <i class="material-icons">home</i>Tableau de Bord
@@ -102,46 +101,46 @@
     </div>
 
     <div class="demo-ribbon"></div>
-    <main  role="main" class="mdl-layout__content content__container">
-        <div class="demo-container mdl-color--grey-100 spacer">
-          <div class="demo-content mdl-color--white mdl-shadow--2dp content mdl-color-text--grey-800 mdl-cell mdl-cell--12-col">
-            <div class="mdl-card__content">
-                <div class="mdl-grid mdl-typography--text-center">
-                  <div class="mdl-cell mdl-cell--4-col">
-                    <h5 class="h5">Solde Disponible</h5>
-                    <p class="lead">$50.00</p>
-                  </div>
-                  <div class="mdl-layout-spacer"></div>
-                  <div class="mdl-cell mdl-cell--4-col">
-                    <img src="static/images/usr.png" class="usr-icon">
-                    <h5 class="h4">Manageur Jean</h5>
-                  </div>
+    <main  role="main" class="demo-main mdl-layout__content main-content content__container">
+      <div class="demo-container mdl-grid rw-card-grid" style="">
+        <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+
+        <div class="demo-content mdl-card mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+          <div class="mdl-card__content">
+              <div class="demo-crumbs mdl-color-text--grey-500">
+                Tableau de Bord
+              </div>
+              <div class="mdl-grid mdl-typography--text-center">
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--3-tablet mdl-cell--2-phone">
+                  <p class="h6">Solde Disponible</p>
+                  <p class="demo-crumbs">$50.00</p>
                 </div>
-            </div>
-
-            <div class="mdl-card__actions mdl-card--border mdl-typography--text-center">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color--blue mdl-color-text--white" href="#"><i class="material-icons">money</i>Transfert</a>
-
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color--blue mdl-color-text--white" href="retrait.html"><i class="material-icons">money</i>Retrait</a>
-
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color--blue mdl-color-text--white" href="depot.html"><i class="material-icons">add</i>Ajouter de L'argent</a>
-            </div>
-
+                <div class="mdl-layout-spacer"></div>
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--3-tablet mdl-cell--2-phone">
+                  <img src="static/images/usr.png">
+                  <p class="demo-crumbs">Manageur Jean</p>
+                </div>
+              </div>
           </div>
+
+          <div class="mdl-card__actions mdl-card--border mdl-typography--text-center">
+              <a class="mdl-button btn mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color--blue mdl-color-text--white" href="#">Transfert</a>
+
+              <a class="mdl-button btn mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color--blue mdl-color-text--white" href="retrait.html"><i class="material-icons">money</i>Retrait</a>
+              
+
+              <div class="line"></div>
+
+              <a class="mdl-button btn mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color--blue mdl-color-text--white" href="depot.html">Ajouter de L'argent</a>
+          </div>
+
 
         </div>
 
-        <footer class="demo-footer mdl-mini-footer">
-            <div class="mdl-mini-footer--left-section">
-                <ul class="mdl-mini-footer--link-list">
-                    <li><a href="#">À propos</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Confidentialité</a></li>
-                    <li><a href="#">Termes</a></li>
-                </ul>
-            </div>
-        </footer>
+      </div>
+
     </main>
+   
 </div>
 
 <a href="#" id="view-source" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">
